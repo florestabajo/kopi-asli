@@ -112,7 +112,7 @@ body {
   font-weight: bold; /* Menjadikan teks tebal */
   color: #333; /* Warna teks */
 }
-   /* CSS sebelumnya di sini */
+  /* CSS sebelumnya di sini */
 
 /* Styling untuk kolom pembeli */
 .buyer-column {
@@ -151,7 +151,7 @@ body {
 }
 .price {
   font-size: 20px;
-  color: rgb(255, 208, 0); /* Ganti dengan warna yang diinginkan */
+  color: rgb(255, 238, 0); /* Ganti dengan warna yang diinginkan */
 }
 
 /* Animasi untuk harga berkedip */
@@ -162,8 +162,15 @@ body {
 }
 
 .price-blink {
-  animation: blink 1s infinite; /* Membuat animasi berulang selama 1 detik */
+  animation: blink 0s infinite; /* Membuat animasi berulang selama 1 detik */
+}
+/* CSS sebelumnya di sini */
+
+/* Styling untuk logo WhatsApp */
+.whatsapp-logo {
+  width: 20px; /* Sesuaikan dengan ukuran yang diinginkan */
+  height: auto;
+  margin-right: 5px; /* Jarak antara logo dan teks */
 }
 
-  
   
