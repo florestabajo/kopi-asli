@@ -112,5 +112,58 @@ body {
   font-weight: bold; /* Menjadikan teks tebal */
   color: #333; /* Warna teks */
 }
+   /* CSS sebelumnya di sini */
+
+/* Styling untuk kolom pembeli */
+.buyer-column {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.buyer-column h2 {
+  margin-bottom: 10px;
+}
+
+.buyer-column input, .buyer-column button {
+  margin-bottom: 10px;
+}
+
+.buyer-column button {
+  padding: 10px 20px;
+  background-color: #25d366;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buyer-column button:hover {
+  background-color: #128C7E;
+}
+/* CSS sebelumnya di sini */
+
+/* Styling untuk harga */
+.price {
+  font-size: 20px;
+}
+.price {
+  font-size: 20px;
+  color: rgb(255, 208, 0); /* Ganti dengan warna yang diinginkan */
+}
+
+/* Animasi untuk harga berkedip */
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.price-blink {
+  animation: blink 1s infinite; /* Membuat animasi berulang selama 1 detik */
+}
+
   
   
