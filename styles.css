@@ -1,0 +1,13 @@
+.video-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+video {
+    width: 100%;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+}
